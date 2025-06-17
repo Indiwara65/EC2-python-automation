@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: server
+Version: 1.0.0
+Summary: FastAPI server
+Project-URL: project, https://github.com/Indiwara65/EC2-python-automation.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi[standard]
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Dynamic: license-file
+
+# EC2-python-automation
+Automate fastapi server deployment to AWS EC2 instance
+* FastAPI server EC2 deployment automation using github actions.
+* NGINX is used for reverse proxy to accept triaffic from port 80.
