@@ -8,8 +8,8 @@ version = "1.0.0"
 description = "FastAPI server"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = ["fastapi[standard]"]
+dependencies = ["fastapi[standard]==0.115.13"]
 optional-dependencies = {dev = [
-    "pytest>=6.0"
+    "pytest>=8.4"
     ]}
 urls = {project = "https://github.com/Indiwara65/EC2-python-automation.git"}

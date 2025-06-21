@@ -8,7 +8,7 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: fastapi[standard]
 Provides-Extra: dev
-Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest>=8.4; extra == "dev"
 Dynamic: license-file
 
 # EC2-python-automation
