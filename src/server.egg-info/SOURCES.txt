@@ -7,6 +7,8 @@ src/module_1/__init__.py
 src/module_1/additions.py
 src/module_2/__init__.py
 src/module_2/substractions.py
+src/module_3/__init__.py
+src/module_3/multiplications.py
 src/server.egg-info/PKG-INFO
 src/server.egg-info/SOURCES.txt
 src/server.egg-info/dependency_links.txt

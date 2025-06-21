@@ -6,7 +6,7 @@ Project-URL: project, https://github.com/Indiwara65/EC2-python-automation.git
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
-Requires-Dist: fastapi[standard]
+Requires-Dist: fastapi[standard]==0.115.13
 Provides-Extra: dev
 Requires-Dist: pytest>=8.4; extra == "dev"
 Dynamic: license-file
