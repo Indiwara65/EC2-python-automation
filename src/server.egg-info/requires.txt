@@ -1,4 +1,5 @@
 fastapi[standard]==0.115.13
 
 [dev]
-pytest>=8.4
+flake8==7.3.0
+pytest==8.4.0

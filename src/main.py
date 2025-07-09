@@ -1,4 +1,6 @@
 from fastapi import FastAPI
+from fastapi.responses import HTMLResponse
+from pathlib import Path
 import uvicorn
 
 from module_1 import add
@@ -10,6 +12,11 @@ app = FastAPI()
 @app.get("/")
 def root():
     return{"status":"Ok"}
+
+@app.get("/index", response_class=HTMLResponse)
+def index():
+    html_content = Path("static/index.html").read_text()
+    return html_content
 
 @app.get("/add")
 def addition(a:float,b:float=10):
