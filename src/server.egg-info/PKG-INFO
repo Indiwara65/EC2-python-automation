@@ -8,7 +8,8 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: fastapi[standard]==0.115.13
 Provides-Extra: dev
-Requires-Dist: flake8; extra == "dev"
+Requires-Dist: flake8==7.3.0; extra == "dev"
+Requires-Dist: pytest==8.4.0; extra == "dev"
 Dynamic: license-file
 
 # EC2-python-automation
